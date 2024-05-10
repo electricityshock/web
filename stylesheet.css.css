@@ -1,0 +1,29 @@
+/* Setting background color to black */
+.bpw-container {
+    background-color: black;
+}
+
+/* Styling user messages */
+.bpw-message.bpw-message--user .bpw-message-content {
+    color: black; /* Black text */
+}
+
+/* Styling bot messages */
+.bpw-message.bpw-message--bot .bpw-message-content {
+    color: black; /* Black text */
+}
+
+/* Styling bot messages bubble */
+.bpw-message.bpw-message--bot .bpw-message-content {
+    background-color: #66ff99; /* Light green bubble */
+}
+
+/* Styling bot name and header */
+.bpw-header {
+    color: #66ff99; /* Light green */
+}
+
+/* Styling user messages bubble */
+.bpw-message.bpw-message--user .bpw-message-content {
+    background-color: #80ffff; /* Light blue bubble */
+}
