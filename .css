@@ -1,68 +1,29 @@
-/* Resetting default browser styles */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, table, tr, td, th, form, input, textarea, button {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    font-family: Arial, sans-serif;
-}
-
-/* Full Screen Bot Container */
-.bot-container {
-    width: 100vw;
-    height: 100vh;
+/* Setting background color to black */
+.bpw-container {
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-/* Bot Chat Interface Styles */
-.bot-chat {
-    width: 80%;
-    max-width: 600px;
-    height: 80%;
-    max-height: 600px;
-    overflow-y: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+/* Styling user messages */
+.bpw-message.bpw-message--user .bpw-message-content {
+    color: black; /* Black text */
 }
 
-/* Bot Message Styles */
-.bot-message {
-    margin-bottom: 15px;
+/* Styling bot messages */
+.bpw-message.bpw-message--bot .bpw-message-content {
+    color: black; /* Black text */
 }
 
-/* User Input Styles */
-.user-input {
-    width: calc(100% - 40px);
-    margin-top: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+/* Styling bot messages bubble */
+.bpw-message.bpw-message--bot .bpw-message-content {
+    background-color: #66ff99; /* Light green bubble */
 }
 
-/* Submit Button Styles */
-.submit-btn {
-    width: 100%;
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+/* Styling bot name and header */
+.bpw-header {
+    color: #66ff99; /* Light green */
 }
 
-.submit-btn:hover {
-    background-color: #0056b3;
+/* Styling user messages bubble */
+.bpw-message.bpw-message--user .bpw-message-content {
+    background-color: #80ffff; /* Light blue bubble */
 }
